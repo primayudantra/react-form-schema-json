@@ -1,0 +1,29 @@
+[
+  {
+    "type"        : "inputText",
+    "_id"         : "text",
+    "label"       : "Text",
+    "placeholder" : "Enter Text here"
+  },
+  {
+    "type"        : "inputPassword",
+    "_id"         : "password",
+    "label"       : "Password",
+    "placeholder" : "Enter password here"
+  },
+  {
+    "type"        : "inputOption",
+    "_id"         : "option",
+    "label"       : "Option",
+    "options"     : [
+      {
+        "text":"Yes",
+        "value":true
+      },
+      {
+        "text":"No",
+        "value":false
+      }
+    ]
+  }
+]
